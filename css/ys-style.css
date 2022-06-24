@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+:root {
+  --primary: #4d1379;
+  --secondary: #fc005a;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  border: 1px solid #ddd;
+}
+
+.main-wrapper .main-body-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.brand-logo {
+  max-width: 115px;
+}
+
+.brand-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-with-short-details h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  background: #FC005A;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(36%, #FC005A), color-stop(66%, #4D1379));
+  background: linear-gradient(to top, #FC005A 36%, #4D1379 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hand-to-hand-logo {
+  max-width: 115px;
+}
+
+.hand-to-hand-logo img {
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=ys-style.css.map */

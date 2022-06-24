@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #4d1379;
+    --secondary: #fc005a;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid #ddd;
+
+    .main-body-content {
+        flex: 1;
+    }
+}
+
+.brand-logo {
+    max-width: 115px;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.title-with-short-details {
+    h1 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: bold;
+        background: #FC005A;
+        background: linear-gradient(to top, #FC005A 36%, #4D1379 66%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+}
+
+.hand-to-hand-logo {
+    max-width: 115px;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
