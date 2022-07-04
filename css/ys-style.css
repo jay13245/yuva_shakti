@@ -25,7 +25,7 @@
 }
 
 .brand-logo {
-  max-width: 115px;
+  max-width: 95px;
 }
 
 .brand-logo img {
@@ -35,8 +35,9 @@
 
 .title-with-short-details h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.5vw;
   font-weight: bold;
+  text-align: center;
   background: #FC005A;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(36%, #FC005A), color-stop(66%, #4D1379));
   background: linear-gradient(to top, #FC005A 36%, #4D1379 66%);
@@ -44,8 +45,16 @@
   -webkit-text-fill-color: transparent;
 }
 
+.connect-media .list-group .list-group-item {
+  padding: 0.225rem 0.5rem 0;
+}
+
+.connect-media .list-group .list-group-item a {
+  color: var(--black);
+}
+
 .hand-to-hand-logo {
-  max-width: 115px;
+  max-width: 95px;
 }
 
 .hand-to-hand-logo img {
