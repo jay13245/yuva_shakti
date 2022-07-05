@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid px-0">
         <main class="main-wrapper">
             <header>
-                <nav class="navbar border-bottom">
+                <nav class="navbar border-bottom px-md-4 px-2">
                     <div class="brand-logo">
                         <img src="./images/YUVA-ARMY_LOGO.png" alt="YUVA-ARMY">
                     </div>
@@ -23,7 +23,7 @@
                         <h1 class="mb-0">Yuva army group of <span class="city-name">rajkot</span></h1>
                         <div class="connect-media d-flex align-items-center justify-content-center">
                             <p class="mb-0 fw-bold">Connect wih us</p>
-                            <ul class="list-group list-group-horizontal mx-3">
+                            <ul class="list-group list-group-horizontal mx-md-3 mx-1">
                                 <li class="list-group-item border-0">
                                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                 </li>
@@ -42,18 +42,46 @@
                     </div>
                 </nav>
             </header>
-            <div class="main-body-content">
-                <div class="row align-items-center">
-                    <div class="col-4">A</div>
-                    <div class="col-4 text-center">
-                        <h2>Thank You</h2>
+            <div class="main-body-content px-md-4 px-2">
+                <div class="row align-items-center py-2">
+                    <div class="col-md-4 col-3">
+                        <div class="donate-blood-save-life-logo">
+                            <img src="./images/donate_blood_save_life.png" alt="Donate Blood save life"
+                                class="img-fluid">
+                        </div>
                     </div>
-                    <div class="col-4 text-end">
+                    <div class="col-md-4 col-4 text-center">
+                        <h2 class="gradiant-heading text-uppercase">Thank You</h2>
+                    </div>
+                    <div class="col-md-4 col-5 text-end">
                         <label><strong>Date:</strong></label> 01/08/2022
                     </div>
                 </div>
+                <div class="blodd-donor-detail-wrapper">
+                    <div class="row align-items-center flex-grow-1">
+                        <div class="col-md-6 col-12">
+                            <div class="donor-detail">
+                                <ul>
+                                    <li><strong>Donor Name:</strong> Mr. FirstName LastName</li>
+                                    <li><strong>Blood Group:</strong> B+</li>
+                                    <li><strong>Patient Name:</strong> Mr. FirstName LastName</li>
+                                    <li><strong>Disease:</strong> Thalassemia</li>
+                                    <li><strong>Hospital Name:</strong> Civil Hospital, Rajkot</li>
+                                    <li><strong>Blood Bank:</strong> Civil Blood Bank, Rajkot</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 text-end order-md-last order-first">
+                            <div class="donor-thumbnail">
+                                <img src="./images/donor-picture.jpg" alt="Blood Donor" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <footer>Footer</footer>
+            <footer class="footer px-4">
+                <h3>"The best way to save someone's life is by DONATING BLOOD". <strong>Thank You</strong></h3>
+            </footer>
         </main>
     </div>
 </body>
