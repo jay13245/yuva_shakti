@@ -4,9 +4,21 @@
   --secondary: #fc005a;
   --white: #ffffff;
   --black: #000000;
+  --fonts: 'Poppins';
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .main-wrapper {
+  font-family: var(--fonts);
+  font-size: 13px;
+  line-height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,13 +26,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 550px;
+  min-height: 550px;
+  max-width: 600px;
+  max-height: 600px;
+  margin: auto;
+  border: 1px solid var(--primary);
 }
 
 .main-wrapper .main-body-content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding: 0 1rem;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +57,7 @@
 
 .hand-to-hand-logo,
 .brand-logo {
-  max-width: 95px;
+  max-width: 70px;
 }
 
 @media screen and (max-width: 576px) {
@@ -48,9 +73,14 @@
   height: auto;
 }
 
+header .navbar {
+  padding: 1rem 1rem;
+  border-color: var(--primary) !important;
+}
+
 .title-with-short-details h1 {
   text-transform: uppercase;
-  font-size: 2.5vw;
+  font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
   background: #FC005A;
@@ -67,7 +97,9 @@
 }
 
 .gradiant-heading {
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 0;
   background: #FC005A;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(36%, #FC005A), color-stop(66%, #4D1379));
   background: linear-gradient(to top, #FC005A 36%, #4D1379 66%);
@@ -96,7 +128,7 @@
 }
 
 .donate-blood-save-life-logo {
-  max-width: 115px;
+  max-width: 90px;
 }
 
 @media screen and (max-width: 576px) {
@@ -121,14 +153,14 @@
 }
 
 .footer h3 {
-  font-size: 1.8vw;
+  font-size: 0.925rem;
   text-align: center;
   font-weight: 300;
   margin: 0;
 }
 
 .footer h3 strong {
-  font-size: 2.2vw;
+  font-size: 1.5rem;
   font-weight: bold;
   display: block;
   padding-top: 0.5rem;
@@ -137,16 +169,14 @@
 }
 
 .blodd-donor-detail-wrapper {
-  padding: 1.5rem 0;
+  padding: 0 0 1rem;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  min-height: 280px;
 }
 
 .donor-detail ul {
@@ -161,8 +191,8 @@
 
 .donor-thumbnail {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   margin-left: auto;
 }
 
@@ -176,13 +206,13 @@
 
 .donor-thumbnail::before {
   content: '';
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   background-color: var(--white);
   border: 2px solid var(--primary);
   position: absolute;
-  top: -20px;
-  left: -20px;
+  top: -15px;
+  left: -15px;
   z-index: 0;
 }
 
@@ -200,5 +230,14 @@
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.footer-hand {
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  max-width: 50px;
 }
 /*# sourceMappingURL=ys-style.css.map */
